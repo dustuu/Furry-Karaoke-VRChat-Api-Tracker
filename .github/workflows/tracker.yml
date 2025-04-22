@@ -34,7 +34,7 @@ jobs:
         uses: actions/checkout@v4
         
       - name: VRChat API Tracker Action
-        uses: kemocade/Kemocade.Vrc.Api.Tracker.Action@db46de3af01bf2687a3753963ee93ef388ffd995
+        uses: kemocade/Kemocade.Vrc.Api.Tracker.Action@532589f132185e457020bc1551d254557dfdaa8a
         with:
           output: ${{ env.output }}
           username: ${{ vars.VRCHAT_USERNAME }}
